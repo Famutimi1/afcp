@@ -1,0 +1,54 @@
+.fc {
+  display: flex;
+  justify-content: center;
+  padding: 7px;
+}
+.fc .c-form {
+  border-radius: 10px;
+  border: 1px solid #E0E0E0;
+  padding: 8px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.fc input {
+  width: 100%;
+  height: 40px;
+  margin-top: 5px;
+  border: none;
+  outline: none;
+  border-bottom: 1.5px solid #E0E0E0;
+}
+.fc .c-form label {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 700;
+  background-color: white;
+  opacity: 0.7;
+  width: 200px;
+}
+.fc textarea {
+  width: 80%;
+  height: 500px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #E0E0E0;
+  margin-top: 5px;
+  resize: none;
+}
+.fc .c-form button {
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+}
+.fc .cli {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.fc .df {
+  color: #787878;
+  text-align: center;
+  font-size: x-large;
+}/*# sourceMappingURL=writecontent.css.map */

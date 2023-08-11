@@ -1,0 +1,96 @@
+html{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+
+}
+
+/* body{
+  background-color: black;
+} */
+.app{
+  height: 100%;
+  width: 100%;
+  
+}
+body{
+  font-family: Roboto,Noto,Helvetica,Arial,sans-serif;
+  position: relative;
+}
+
+.nav{
+  color: white;
+  width: 100%;
+  display: flex;
+  background-color: blueviolet;
+  height: 70px;
+  align-items: center;
+  margin-bottom: 70px;
+}
+
+.sticky{
+  position: sticky;
+  top: 0;
+  transition: top 0.3s ease;
+}
+
+.nav1{
+  margin-left: 10px;
+  font-weight: bold;
+}
+.nav2 div{
+  margin-left:10px;
+  font-weight: bold;
+  bottom: 1px solid white;
+}
+
+.nav2{
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+  cursor:pointer;
+}
+
+.nav2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.nav2 a:hover{
+  color:black;
+}
+
+@media screen and (max-width: 768px) {
+  .nav{
+    margin-bottom: 30px !important;
+  }
+
+  .nav2{
+    margin-right: 10px;
+  }
+
+}
+
+
+
+/* form button{
+  width: 70px;
+  height: 70px;
+} */
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(300deg);
+  }
+} */
